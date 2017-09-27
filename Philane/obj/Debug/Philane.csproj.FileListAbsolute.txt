@@ -1,0 +1,86 @@
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Philane.dll.config
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Philane.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Philane.pdb
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Antlr3.Runtime.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Newtonsoft.Json.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Helpers.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Mvc.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Optimization.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Razor.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\WebGrease.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Helpers.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Mvc.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Optimization.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.Razor.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Antlr3.Runtime.pdb
+C:\Users\Asimbonge\Desktop\Philane\Philane\bin\Newtonsoft.Json.xml
+C:\Users\Asimbonge\Desktop\Philane\Philane\obj\Debug\Philane.csprojResolveAssemblyReference.cache
+C:\Users\Asimbonge\Desktop\Philane\Philane\obj\Debug\Philane.dll
+C:\Users\Asimbonge\Desktop\Philane\Philane\obj\Debug\Philane.pdb
+C:\Users\Phil\Desktop\Philane\Philane\bin\Philane.dll.config
+C:\Users\Phil\Desktop\Philane\Philane\bin\Philane.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\Philane.pdb
+C:\Users\Phil\Desktop\Philane\Philane\bin\Antlr3.Runtime.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\Newtonsoft.Json.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Helpers.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Mvc.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Optimization.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Razor.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\WebGrease.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Helpers.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Mvc.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Optimization.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.Razor.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\Antlr3.Runtime.pdb
+C:\Users\Phil\Desktop\Philane\Philane\bin\Newtonsoft.Json.xml
+C:\Users\Phil\Desktop\Philane\Philane\obj\Debug\Philane.csprojResolveAssemblyReference.cache
+C:\Users\Phil\Desktop\Philane\Philane\obj\Debug\Philane.dll
+C:\Users\Phil\Desktop\Philane\Philane\obj\Debug\Philane.pdb
+C:\Users\Phil\Desktop\Philane\Philane\bin\EntityFramework.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\EntityFramework.SqlServer.dll
+C:\Users\Phil\Desktop\Philane\Philane\bin\EntityFramework.xml
+C:\Users\Phil\Desktop\Philane\Philane\bin\EntityFramework.SqlServer.xml
+E:\New folder\Philane\Philane\bin\Philane.dll.config
+E:\New folder\Philane\Philane\bin\Philane.dll
+E:\New folder\Philane\Philane\bin\Philane.pdb
+E:\New folder\Philane\Philane\bin\Antlr3.Runtime.dll
+E:\New folder\Philane\Philane\bin\EntityFramework.dll
+E:\New folder\Philane\Philane\bin\EntityFramework.SqlServer.dll
+E:\New folder\Philane\Philane\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder\Philane\Philane\bin\Newtonsoft.Json.dll
+E:\New folder\Philane\Philane\bin\System.Web.Helpers.dll
+E:\New folder\Philane\Philane\bin\System.Web.Mvc.dll
+E:\New folder\Philane\Philane\bin\System.Web.Optimization.dll
+E:\New folder\Philane\Philane\bin\System.Web.Razor.dll
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.Deployment.dll
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.dll
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.Razor.dll
+E:\New folder\Philane\Philane\bin\WebGrease.dll
+E:\New folder\Philane\Philane\bin\EntityFramework.xml
+E:\New folder\Philane\Philane\bin\EntityFramework.SqlServer.xml
+E:\New folder\Philane\Philane\bin\System.Web.Helpers.xml
+E:\New folder\Philane\Philane\bin\System.Web.Mvc.xml
+E:\New folder\Philane\Philane\bin\System.Web.Optimization.xml
+E:\New folder\Philane\Philane\bin\System.Web.Razor.xml
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.xml
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.Deployment.xml
+E:\New folder\Philane\Philane\bin\System.Web.WebPages.Razor.xml
+E:\New folder\Philane\Philane\bin\Antlr3.Runtime.pdb
+E:\New folder\Philane\Philane\bin\Newtonsoft.Json.xml
+E:\New folder\Philane\Philane\obj\Debug\Philane.csprojResolveAssemblyReference.cache
+E:\New folder\Philane\Philane\obj\Debug\Philane.dll
+E:\New folder\Philane\Philane\obj\Debug\Philane.pdb

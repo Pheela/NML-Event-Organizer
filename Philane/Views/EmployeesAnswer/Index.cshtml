@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Philane.Models.EmployeesAnswer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 align="center">List of Answered Questions</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Question")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Yes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.No)
+        </th>
+        <th>
+            @Html.DisplayName("Fist Name")
+        </th>
+        <th>
+            @Html.DisplayName("Last Name")
+        </th>
+        <th>
+            @Html.DisplayName("Email")
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question.Question1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Yes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.No)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.FistName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.Email)
+        </td>
+       
+    </tr>
+}
+
+</table>

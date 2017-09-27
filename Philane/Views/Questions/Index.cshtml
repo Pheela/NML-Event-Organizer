@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Philane.Models.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 align="center">List of Questions</h2>
+
+<p align="center">
+    @Html.ActionLink("Create New Questions", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Question")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Email Question to Employees", "Email", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

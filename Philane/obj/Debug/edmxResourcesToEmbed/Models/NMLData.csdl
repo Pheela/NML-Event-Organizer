@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhilaneModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FistName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="EmployeesAnswers" Relationship="PhilaneModel.FK__Employees__Emplo__4AB81AF0" FromRole="Employee" ToRole="EmployeesAnswer" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Question1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="EmployeesAnswers" Relationship="PhilaneModel.FK__Employees__Quest__49C3F6B7" FromRole="Question" ToRole="EmployeesAnswer" />
+  </EntityType>
+  <EntityContainer Name="PhilaneEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="EmployeesAnswers" EntityType="PhilaneModel.EmployeesAnswer" />
+    <AssociationSet Name="FK__Employees__Emplo__4AB81AF0" Association="PhilaneModel.FK__Employees__Emplo__4AB81AF0">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeesAnswer" EntitySet="EmployeesAnswers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__Quest__49C3F6B7" Association="PhilaneModel.FK__Employees__Quest__49C3F6B7">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="EmployeesAnswer" EntitySet="EmployeesAnswers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="EmployeesAnswer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="QuestionId" Type="Int32" Nullable="false" />
+    <Property Name="Yes" Type="Boolean" />
+    <Property Name="No" Type="Boolean" />
+    <NavigationProperty Name="Employee" Relationship="PhilaneModel.FK__Employees__Emplo__4AB81AF0" FromRole="EmployeesAnswer" ToRole="Employee" />
+    <NavigationProperty Name="Question" Relationship="PhilaneModel.FK__Employees__Quest__49C3F6B7" FromRole="EmployeesAnswer" ToRole="Question" />
+  </EntityType>
+  <Association Name="FK__Employees__Emplo__4AB81AF0">
+    <End Type="PhilaneModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="PhilaneModel.EmployeesAnswer" Role="EmployeesAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeesAnswer">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__Quest__49C3F6B7">
+    <End Type="PhilaneModel.Question" Role="Question" Multiplicity="1" />
+    <End Type="PhilaneModel.EmployeesAnswer" Role="EmployeesAnswer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeesAnswer">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
